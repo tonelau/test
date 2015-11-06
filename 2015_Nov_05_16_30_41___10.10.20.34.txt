@@ -1,0 +1,187 @@
+Last login: Thu Nov  5 16:00:45 2015 from 10.10.80.186
+
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info
+[I 151105 16:29:22 util:80] cmd: sudo modinfo mpt2sas
+[I 151105 16:29:22 util:80] cmd: lspci
+[I 151105 16:29:22 util:80] cmd: ddoemcli -c 1 -list
+[I 151105 16:29:23 util:80] cmd: ddoemcli -c 1 -health
+[I 151105 16:29:23 util:80] cmd: readlink -f /dev/disk/by-path/pci-0000:07:00.0-scsi-*:0
+[I 151105 16:29:23 util:80] cmd: /usr/sbin/MegaCli -pdlist -aALL -NoLog
+[I 151105 16:29:23 util:80] cmd: /usr/sbin/dmidecode -t slot
+[I 151105 16:29:23 util:80] cmd: /usr/sbin/MegaCli -LdPdInfo -aALL -NoLog
+[I 151105 16:29:23 util:80] cmd: /usr/sbin/dmidecode -t slot
+[I 151105 16:29:23 util:80] cmd: /usr/sbin/MegaCli -AdpGetPciInfo -aALL -NoLog
+[I 151105 16:29:23 module_megacli:99] smartctl -x -T permissive -d sat+megaraid,0 /dev/sdb
+[I 151105 16:29:23 util:80] cmd: smartctl -x -T permissive -d sat+megaraid,0 /dev/sdb
+[I 151105 16:29:23 module_megacli:105] smartctl 5.43 2012-06-30 r3573 [x86_64-linux-2.6.32-504.el6.x86_64] (local build)
+    Copyright (C) 2002-12 by Bruce Allen, http://smartmontools.sourceforge.net
+    
+    Smartctl: Device Read Identity Failed: megasas_cmd result: 0.0 = 0/45
+    
+    === START OF INFORMATION SECTION ===
+    Device Model:     [No Information Found]
+    Serial Number:    [No Information Found]
+    Firmware Version: [No Information Found]
+    Device is:        Not in smartctl database [for details use: -P showall]
+    ATA Version is:   [No Information Found]
+    ATA Standard is:  [No Information Found]
+    Local Time is:    Thu Nov  5 16:29:23 2015 CST
+    SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 82-83 don't show if SMART supported.
+    SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 85-87 don't show if SMART is enabled.
+    A mandatory SMART command failed: exiting. To continue, add one or more '-T permissive' options.
+    
+[I 151105 16:29:23 module_megacli:99] smartctl -x -T permissive -d sat+megaraid,2 /dev/sda
+[I 151105 16:29:23 util:80] cmd: smartctl -x -T permissive -d sat+megaraid,2 /dev/sda
+[I 151105 16:29:24 module_megacli:105] smartctl 5.43 2012-06-30 r3573 [x86_64-linux-2.6.32-504.el6.x86_64] (local build)
+    Copyright (C) 2002-12 by Bruce Allen, http://smartmontools.sourceforge.net
+    
+    Smartctl: Device Read Identity Failed: megasas_cmd result: 0.2 = 0/45
+    
+    === START OF INFORMATION SECTION ===
+    Device Model:     [No Information Found]
+    Serial Number:    [No Information Found]
+    Firmware Version: [No Information Found]
+    Device is:        Not in smartctl database [for details use: -P showall]
+    ATA Version is:   [No Information Found]
+    ATA Standard is:  [No Information Found]
+    Local Time is:    Thu Nov  5 16:29:24 2015 CST
+    SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 82-83 don't show if SMART supported.
+    SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 85-87 don't show if SMART is enabled.
+    A mandatory SMART command failed: exiting. To continue, add one or more '-T permissive' options.
+    
+[I 151105 16:29:24 module_megacli:99] smartctl -x -T permissive -d sat+megaraid,3 /dev/sdc
+[I 151105 16:29:24 util:80] cmd: smartctl -x -T permissive -d sat+megaraid,3 /dev/sdc
+[I 151105 16:29:24 module_megacli:105] smartctl 5.43 2012-06-30 r3573 [x86_64-linux-2.6.32-504.el6.x86_64] (local build)
+    Copyright (C) 2002-12 by Bruce Allen, http://smartmontools.sourceforge.net
+    
+    Smartctl: Device Read Identity Failed: megasas_cmd result: 0.3 = 0/45
+    
+    === START OF INFORMATION SECTION ===
+    Device Model:     [No Information Found]
+    Serial Number:    [No Information Found]
+    Firmware Version: [No Information Found]
+    Device is:        Not in smartctl database [for details use: -P showall]
+    ATA Version is:   [No Information Found]
+    ATA Standard is:  [No Information Found]
+    Local Time is:    Thu Nov  5 16:29:24 2015 CST
+    SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 82-83 don't show if SMART supported.
+    SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 85-87 don't show if SMART is enabled.
+    A mandatory SMART command failed: exiting. To continue, add one or more '-T permissive' options.
+    
+healthy
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info -a
+usage: collect [-h] <subcommands> ...
+error: unrecognized arguments: -a
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info -i 10.10.20.33
+usage: collect [-h] <subcommands> ...
+error: unrecognized arguments: 10.10.20.33
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info --all
+usage: collect [-h] <subcommands> ...
+error: unrecognized arguments: --all
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info -a
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info -i 10.10.20.33
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info --all
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect ib_info
+[I 151105 16:30:34 util:80] cmd: ibstat
+[I 151105 16:30:34 util:80] cmd: ibnetdiscover --Ca mlx4_0 -P 1
+[I 151105 16:30:38 util:80] cmd: ibnetdiscover --Ca mlx4_0 -P 2
+
+
+[I 151105 16:30:43 util:80] cmd: ibdev2netdev
+[I 151105 16:30:43 util:80] cmd: ip a l | grep ib | grep net
+[I 151105 16:30:43 util:80] cmd: strings /sys/class/infiniband/mlx4_0/device/vpd
+healthy
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#

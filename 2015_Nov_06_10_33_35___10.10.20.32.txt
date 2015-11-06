@@ -1,0 +1,124 @@
+Last login: Fri Nov  6 10:30:31 2015 from 10.10.80.183
+
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info
+healthy
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info -i 10.10.20.32
+usage: collect [-h] <subcommands> ...
+error: unrecognized arguments: 10.10.20.32
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info --all
+usage: collect [-h] <subcommands> ...
+error: unrecognized arguments: --all
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info -i 10.10.20.32
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info --all
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect ib_info
+
+
+
+
+
+
+healthy
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#

@@ -1,0 +1,287 @@
+Last login: Mon Nov  2 11:09:07 2015 from 10.10.20.31
+
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    from terminate.term_main import Terminate
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 49, in <module>
+    from bin.bin_qlink import QData_Qlinkadmin
+  File "/home/woqu/qdatamgr/bin/bin_qlink.py", line 19, in <module>
+    from manager.mgr_target import TargetMgr
+  File "/home/woqu/qdatamgr/manager/mgr_target.py", line 17, in <module>
+    from utils.util import line_num
+ImportError: cannot import name line_num
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info -a
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    from terminate.term_main import Terminate
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 49, in <module>
+    from bin.bin_qlink import QData_Qlinkadmin
+  File "/home/woqu/qdatamgr/bin/bin_qlink.py", line 19, in <module>
+    from manager.mgr_target import TargetMgr
+  File "/home/woqu/qdatamgr/manager/mgr_target.py", line 17, in <module>
+    from utils.util import line_num
+ImportError: cannot import name line_num
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info -i 10.10.20.33
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    from terminate.term_main import Terminate
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 49, in <module>
+    from bin.bin_qlink import QData_Qlinkadmin
+  File "/home/woqu/qdatamgr/bin/bin_qlink.py", line 19, in <module>
+    from manager.mgr_target import TargetMgr
+  File "/home/woqu/qdatamgr/manager/mgr_target.py", line 17, in <module>
+    from utils.util import line_num
+ImportError: cannot import name line_num
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info --all
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    from terminate.term_main import Terminate
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 49, in <module>
+    from bin.bin_qlink import QData_Qlinkadmin
+  File "/home/woqu/qdatamgr/bin/bin_qlink.py", line 19, in <module>
+    from manager.mgr_target import TargetMgr
+  File "/home/woqu/qdatamgr/manager/mgr_target.py", line 17, in <module>
+    from utils.util import line_num
+ImportError: cannot import name line_num
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/rootLast login: Mon Nov  2 11:09:07 2015 from 10.10.20.31
+
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    from terminate.term_main import Terminate
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 49, in <module>
+    from bin.bin_qlink import QData_Qlinkadmin
+  File "/home/woqu/qdatamgr/bin/bin_qlink.py", line 19, in <module>
+    from manager.mgr_target import TargetMgr
+  File "/home/woqu/qdatamgr/manager/mgr_target.py", line 17, in <module>
+    from utils.util import line_num
+ImportError: cannot import name line_num
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info -a
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    from terminate.term_main import Terminate
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 49, in <module>
+    from bin.bin_qlink import QData_Qlinkadmin
+  File "/home/woqu/qdatamgr/bin/bin_qlink.py", line 19, in <module>
+    from manager.mgr_target import TargetMgr
+  File "/home/woqu/qdatamgr/manager/mgr_target.py", line 17, in <module>
+    from utils.util import line_num
+ImportError: cannot import name line_num
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info -i 10.10.20.33
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    from terminate.term_main import Terminate
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 49, in <module>
+    from bin.bin_qlink import QData_Qlinkadmin
+  File "/home/woqu/qdatamgr/bin/bin_qlink.py", line 19, in <module>
+    from manager.mgr_target import TargetMgr
+  File "/home/woqu/qdatamgr/manager/mgr_target.py", line 17, in <module>
+    from utils.util import line_num
+ImportError: cannot import name line_num
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info --all
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    from terminate.term_main import Terminate
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 49, in <module>
+    from bin.bin_qlink import QData_Qlinkadmin
+  File "/home/woqu/qdatamgr/bin/bin_qlink.py", line 19, in <module>
+    from manager.mgr_target import TargetMgr
+  File "/home/woqu/qdatamgr/manager/mgr_target.py", line 17, in <module>
+    from utils.util import line_num
+ImportError: cannot import name line_num
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info -a
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info -i 10.10.20.33
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info --all
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect ib_info
+
+
+healthy
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info -a
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info -i 10.10.20.33
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info --all
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect ib_info
+
+
+healthy
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@sto2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31msto2[m [4m/root[m[1;37m][m[1;36m[m
+#

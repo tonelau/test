@@ -1,0 +1,147 @@
+Last login: Wed Nov  4 09:18:12 2015 from 10.10.80.189
+
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info
+Traceback (most recent call last):
+  File "main.py", line 19, in <module>
+    ter.main()
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 123, in main
+    self.run_command_in_one()
+  File "/home/woqu/qdatamgr/terminate/term_main.py", line 115, in run_command_in_one
+    sub_main(argv[2:])
+  File "/home/woqu/qdatamgr/bin/bin_collect.py", line 102, in main
+    args.func(args)
+  File "/home/woqu/qdatamgr/bin/bin_collect.py", line 81, in do_check_disk
+    check.run(**args)
+  File "/home/woqu/qdatamgr/collect/collect_disk.py", line 26, in run
+    info_disk = disk.getAllInfo()
+  File "/home/woqu/qdatamgr/collect/module_megacli.py", line 146, in getAllInfo
+    healthInfo = self.get_healthInfo()
+  File "/home/woqu/qdatamgr/collect/module_megacli.py", line 106, in get_healthInfo
+    info = parse_smartctl(output)
+  File "/home/woqu/qdatamgr/get_info/parser_smartctl.py", line 26, in parse_smartctl
+    father_info = parse_father(cmd_output)
+  File "/home/woqu/qdatamgr/get_info/parser_smartctl.py", line 44, in parse_father
+    result = GetInfo_Father(cmd_output, pattern_father, pattern_child)
+  File "/home/woqu/qdatamgr/utils/cmd_parser.py", line 72, in GetInfo_Father
+    father_list = father.splitlines()
+AttributeError: 'NoneType' object has no attribute 'splitlines'
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info -i 10.10.20.32
+usage: collect [-h] <subcommands> ...
+error: unrecognized arguments: 10.10.20.32
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect disk_info --all
+usage: collect [-h] <subcommands> ...
+error: unrecognized arguments: --all
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info -i 10.10.20.32
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect flash_info --all
+usage: collect [-h] <subcommands> ...
+error: argument <subcommands>: invalid choice: 'flash_info'
+Try 'collect --help' for more information.
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#qdatamgr collect ib_info
+
+
+
+
+
+
+healthy
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
+]0;root@qc2
+[1;37m[[m[1;31mroot[m[1;31m@[m[1;31mqc2[m [4m/root[m[1;37m][m[1;36m[m
+#
